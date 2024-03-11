@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+:root {
+    font-size: 62.5%;
+    --font: "Roboto Slab", serif;
+    --orange :  #e74c3c;
+    --white : #fff;
+    --hover-btn : #b83e30;
+    --btn-white-over : rgb(144,144,144);
+    --bg-icon : rgb(74,74,74)
+}
+
+
+
+nav {
+    padding: 1rem 8rem !important;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+#entete {
+    background-image: url(../img/hero-image.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4.5rem !important;
+    font-family: var(--font);
+}
+
+ p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: var(--orange) ;
+    color: #fff ;
+    font-size: 1.5rem ;
+}
+
+.btn:hover {
+background-color: var(--btn-white-over);
+}
+
+/* main */
+h3 {
+    font-size: 2.2rem;
+    color:var(--orange);
+    font-family: var(--font)
+}
+
+hr {
+    width: 11rem !important;
+    color: var(--orange);
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    height: 0.15rem;
+   
+}
+
+span {
+    color: var(--orange);
+}
+
+.btn-outline-secondary {
+
+    color: var(--orange);
+    font-size: 1.1rem;
+}
+
+.btn-outline-secondary:hover {
+    color: var(--white) !important;
+    background-color: var(--bg-icon) !important;
+}
+
+i {
+
+    background-color: var(--bg-icon);
+    color: var(--white);
+    font-size: 3rem;
+    padding: 1.7rem;
+}
+
+h4 {
+    color: var(--orange);
+    font-family: var(--font);
+    margin: 4rem 0 1rem 0;
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: var(--orange);
+    padding : 15rem 5rem 2rem ;
+}
+
+
+@media screen and ( min-width:768px ) {
+    header button {
+        font-size: 1.8rem;
+        padding: .8rem 0 !important;
+    }
+}
+    
+
+.team {
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+
+    color: var(--orange)
+}
+
+main a:hover{
+
+    color:var(--hover-btn)
+    
+}
