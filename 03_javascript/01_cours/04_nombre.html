@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Nombre en JS</title>
+</head>
+<body>
+    
+
+
+   <script>
+
+// ------------ LES NORMES ET LES CALCULS
+// ------------
+
+
+// Pour initialiser un nombre, il suffit de l'écrire sans guillemets
+
+const A = 5 * 10; 
+const B = 10 / 2;
+const C = 15 - 5;
+const D = 20 + 10;
+const E = 5 % 10;
+
+// Nous pouvons effectuer tout type de calcul
+
+// Addition 
+const ADDITION = A + B ; // 50 + 5
+console.log (ADDITION);
+// Le resultat de l'addition de A et B est égal : 55
+document.write("Le resultat de l'addition de A et B égale à : " + ADDITION ); // on concatene avec une chaine de caractère en utilisant le signe "+"
+document.write("<br>")
+// Soustraction 
+
+const SOUSTRACTION = C - 4;
+document.write(" Le resultat de la soustraction de c - 4 est égale à : " + SOUSTRACTION + "<br>" );
+
+// Multiplication
+
+const MULTIPLICATION  =  D * 5;
+document.write("Le résultat de la multiplication de D * 5 est égale à : " + MULTIPLICATION + "<br>")
+
+// ----------------------------------
+
+let g = 10;
+// 1ère façon 
+
+g = g + 5;
+document.write(g + "<br>")
+
+// 2 ème facon de faire 
+
+g+= 5;
+
+document.write(g +"<br>");
+
+// -------------------
+// Incrémentation et décrémentation
+
+// Nous pouvons ajouter 1 ou enlever 1 avec ++ ou --
+
+let h = 50;
+
+h++;
+document.write(h);
+
+let i = 1 ;
+document.write( i + "<br>")
+let j = i++; // 2 
+document.write(i + "<br>");
+document.write(j + "<br>");
+
+
+// Exercice : recuperer dansun prompt la valeur souhaité par l'utilisateur
+
+// Envoyez une alerte indiquant le résultat au carre et au cube de la valeur
+let donnee = prompt("inserer un nombre0")
+// let donnee au carre 
+
+
+   </script>
+
+</body>
+</html>

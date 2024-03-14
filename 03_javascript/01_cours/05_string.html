@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+
+//----------------------------
+        // - LES STRING ET CONCATENATION
+//------------------------
+
+// Nous pouvons initialiser une chaine de caractère de plusieur facon
+
+// avec guillement simples ( simple quotes )
+const PRENOM = 'Gary '
+
+// avec des guillemets doubles ( doubles quotes)
+const NOM = "MONTEIRO"
+
+// avzc simple quotes et backslash (ou antislah)
+const ADRESSE = ' j\'habite à Athis-Mons';
+
+//je suis Gary Monteiro j'habite a athis-mons 
+// Afficher cette phrase
+
+
+document.write(" Je suis " + PRENOM + NOM + ADRESSE)
+
+
+const PRENOM2 = "Marc", NOM2 = "ISAAC";
+
+document.write("Je suis " + PRENOM2 + " " + NOM2 + "<br>" );
+
+
+// les backquotes vous permet d'insérer du JS dans un string
+// avec les backquotes ('') (altGr + 7)
+let bienvenue = ` Bonjour vous êtes les bienvenu : ${PRENOM} et ${PRENOM2}  <br> <br> ` ; 
+document.write(bienvenue);
+
+
+
+// let age =  prompt("Quel est mon age ?");
+
+// document.write( ` Vous avez : ${age} ans <br> `);
+
+
+
+/////////////////////
+ // le " = " au niveau des strings
+
+ let fruits = ' Pommes';
+ document.write(fruits);
+ fruits += ' fraise';
+ fruits += ' Mangue'
+document.write(fruits)
+// Contrairement au "=" d'affectation qui remplace la valeur de la vertical, j'utilise ici += qui va ajouter la nouvelle valeur à la valeur de la variable
+
+//------------------
+        // Convertir un string vers number
+//------------------
+
+document.write ('<br>');
+let unNombre = "24";
+document.write(typeof(unNombre));
+// pour convertir le string "24" en nombre 24
+document.write('<br>');
+unNombre = parseFloat(unNombre);
+document.write(typeof(unNombre));
+
+
+
+
+    </script>
+    
+</body>
+</html>
